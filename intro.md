@@ -18,6 +18,10 @@ $$
 
 
 
+Lorsque je fais des changements :
+1. j'enregistre et voit en direct via le serveur local (jupyter-book start)
+2. je clique sur les +, écrit un commit et Ctrl+Entrée pour pusher sur le site
+
 
 
 (https://jupyterbook.org/stable/get-started/export-pdfs/)

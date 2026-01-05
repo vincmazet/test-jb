@@ -16,6 +16,7 @@ project:
     - file: page2.md
       children:
         - file: page3.md
+        - file: toto.ipynb
 
   exports:
     - format: pdf
@@ -32,6 +33,7 @@ project:
         - intro.md
         - page2.md
         - page3.md
+        - toto.ipynb
       output: _build/exports/thetest.pdf # bug : ne copie pas dans exports
 
     

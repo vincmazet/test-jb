@@ -1,0 +1,24 @@
+# Page 2
+
+Bonjour les copains.
+
+## section uno
+
+$$
+E=mc^2
+$$
+
+Ça marche ?
+
+Hmmm... est-ce que ça passe du svg ?
+
+:::{figure} renard.svg
+:width:200px
+Ceci est un renard
+:::
+
+<!--
+:::{figure} ball.svg
+I'm a nice sunset!
+:::
+-->

@@ -39,7 +39,7 @@
           "file": "/home/vinc/Ecole/test-jb/page3.md"
         }
       ],
-      "output": "/home/vinc/Ecole/test-jb/_build/exports/intro.pdf",
+      "output": "/home/vinc/Ecole/test-jb/_build/exports/thetest.pdf",
       "$file": "/home/vinc/Ecole/test-jb/myst.yml",
       "$project": "/home/vinc/Ecole/test-jb"
     }

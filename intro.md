@@ -1,15 +1,24 @@
 # Introduction
 
-Bonne année !
+
++++ {"part": "abstract"}
+This is my abstract!
++++
+
+
+
+
+
+
+Bonne année et bonne santé !
 
 $$
 a = b + c
 $$
 
 
-+++ {"part": "abstract"}
-This is my abstract!
-+++
+
+
 
 (https://jupyterbook.org/stable/get-started/export-pdfs/)
 

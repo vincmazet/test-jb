@@ -1,0 +1,70 @@
+\section{Coucou !}
+
+This is my abstract!
+
+(\href{https://jupyterbook.org/stable/get-started/export-pdfs/}{https://jupyterbook.org/stable/get-started/export-pdfs/})
+
+I am a book about ... something! Wikipedia has \href{https://en.wikipedia.org/wiki/book}{information about books}: hover over the link for more information.
+
+\begin{itemize}
+\item \textbf{jupyter-book init} : initialise a project.
+\item \textbf{jupyter book init --write-toc} : autogenerate a Table of Contents
+\item \textbf{jupyter-book start} : built-in server that renders your book as a locally-served website.
+\item \textbf{jupyter book build --pdf} : building a pdf
+\end{itemize}
+
+\subsection{Export PDFs}
+
+\textbf{jupyter book templates list --pdf}
+
+\begin{itemize}
+\item 🟢 lapreprint-typst
+\item arxiv\_nips : An arXiv compatible template based on the NIPS 2018 Style
+\item arxiv\_two\_column : A two column arXiv compatible template
+\item frontiers : A template for the Frontiers In range of Journals
+\item volcanica : A template for submissions to the Volcanica journal
+\item curvenote : A paper styled template using the custom environments and styling to match Curvenote Web
+\item plain\_latex : A minimal template that only uses vanilla LaTeX commands and environments
+\item plain\_latex\_book : A plain latex book theme
+\item springer : Official template for Springer journals
+\item ⚠️ ieee-typst : IEEE Template from Typst app, updated as a MyST template
+\item ⚠️ plain\_typst\_book : Easily create beautiful books in Typst
+\end{itemize}
+
+\textbf{jupyter book templates list --typst lapreprint-typst}
+
+LaPreprint Typst Template : lapreprint-typst
+Parts:
+
+\begin{itemize}
+\item abstract (required) - An abstract is a short summary of your research paper or report. A good abstract will prepare readers for the detailed information to follow, communicate the essence of the article and help readers take away and remember key points.
+\item summary - Plain language summary
+\item acknowledgements - Acknowledgements printed in the margin
+\item availability - Data availability statement printed in the margin
+\end{itemize}
+
+Options:
+
+\begin{itemize}
+\item logo (file) - An image path that is shown in the top right of the page
+\item kind (string) - The ``kind'' of the content, e.g. ``Original Research'' - shown as the title of the margin content on the first page
+-short\_citation (string) - The short citation used in the document header. By default, it is automatically determined from the author names.
+\item heading\_numbering (string) - Heading numbering style.
+\end{itemize}
+
+Finalement :
+
+\begin{itemize}
+\item \textbf{jupyter book build intro.md --tex} et faire pour chaque fichier. Mais impose de nettoyer le tex et d'avoir une classe pour le template avant de compiler en pdf ``à la main''.
+\item \textbf{jupyter book build --pdf} compile tous les fichiers en pdf avec le format défini dans le frontmatter de myst.yml :
+\end{itemize}
+
+\begin{verbatim}
+exports:
+    - format: pdf
+      template: lapreprint -typst
+      articles:
+        - intro.md
+        - page2.md
+        - page3.md
+\end{verbatim}

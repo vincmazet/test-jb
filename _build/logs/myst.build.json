@@ -1,0 +1,47 @@
+{
+  "input": {
+    "files": [],
+    "opts": {
+      "execute": false,
+      "pdf": true,
+      "tex": false,
+      "typst": false,
+      "docx": false,
+      "md": false,
+      "xml": false,
+      "meca": false,
+      "cff": false,
+      "site": false,
+      "html": false,
+      "all": false,
+      "doiBib": false,
+      "watch": false,
+      "force": false,
+      "checkLinks": false,
+      "strict": false,
+      "ci": false,
+      "maxSizeWebp": 1572864,
+      "keepHost": false
+    }
+  },
+  "exports": [
+    {
+      "format": "pdf",
+      "template": "plain_latex_book",
+      "articles": [
+        {
+          "file": "/home/vinc/Ecole/test-jb/intro.md"
+        },
+        {
+          "file": "/home/vinc/Ecole/test-jb/page2.md"
+        },
+        {
+          "file": "/home/vinc/Ecole/test-jb/page3.md"
+        }
+      ],
+      "output": "/home/vinc/Ecole/test-jb/_build/exports/intro.pdf",
+      "$file": "/home/vinc/Ecole/test-jb/myst.yml",
+      "$project": "/home/vinc/Ecole/test-jb"
+    }
+  ]
+}

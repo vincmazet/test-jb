@@ -37,6 +37,9 @@
         },
         {
           "file": "/home/vinc/Ecole/test-jb/page3.md"
+        },
+        {
+          "file": "/home/vinc/Ecole/test-jb/toto.ipynb"
         }
       ],
       "output": "/home/vinc/Ecole/test-jb/_build/exports/thetest.pdf",

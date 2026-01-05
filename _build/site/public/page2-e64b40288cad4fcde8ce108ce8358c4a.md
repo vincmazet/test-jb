@@ -18,5 +18,5 @@ Ceci est un renard
 :::
 
 :::{figure} ball.svg
-I'm a nice sunset!
+I'm a nice sunset! 
 :::
